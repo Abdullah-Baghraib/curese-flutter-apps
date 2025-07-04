@@ -1,0 +1,41 @@
+name: more_flutter_ui
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.1.2 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+  flutter_styled_toast: ^2.2.1
+  another_flushbar: ^1.12.30
+  carousel_slider: ^4.2.1
+  page_view_dot_indicator: ^2.3.0
+  marquee: ^2.2.3
+  percent_indicator: ^4.2.3
+  flutter_colorpicker: ^1.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - images/s1.jpg
+    - images/s2.jpg
+    - images/s3.jpg
+    - images/q1.jpg
+    - images/q2.jpg
+    - images/q3.jpg
+    - images/q4.jpg
